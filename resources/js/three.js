@@ -22,7 +22,7 @@ scene.add(probe);
 const loader = new GLTFLoader();
 let model;
 loader.load(
-    "http://127.0.0.1:8000/storage/purga1.glb",
+    "/storage/purga1.glb",
     function (gltf) {
         model = gltf.scene;
         console.log("Модель загружена");
